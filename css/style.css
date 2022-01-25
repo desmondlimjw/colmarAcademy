@@ -1,0 +1,554 @@
+/* Global Styles */
+*, body {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #515151;
+}
+p, a {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Desktop style for h1-h5 */
+h1  {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2  {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3  {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+h4  {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h5  {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Header styles */
+  /* Create Flex container for Header */
+  header {
+    display: flex;
+    height: 64px;
+    padding: 16px 24px;
+  }
+
+  /* Logo flex-container */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Logo Text */
+  .titleMenuFront {
+    color: #01161E;
+  }
+  .titleMenuBack {
+    color: #8A97A8;
+  }
+
+  /* Navbar Desktop, Hide mobile navbar*/
+  .desktop-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  /* Remove underline for links */
+  .desktop-nav > a {
+    text-decoration: none;
+
+  }
+
+/* Section 1 */
+  /* Flex container for section 1 */
+  .section1 {
+    display: flex;
+    background-color: lightgrey;
+    padding: 32px 24px;
+  }
+
+  .section1 > img {
+    width: 60%;
+ }
+
+ .section1-content {
+    align-self: center;
+    padding-left: 24px;
+    padding-right: 100px;
+ }
+
+ /* Line Height adjustment */
+ .section1-content > h1, h5 {
+   line-height: 120%;
+ }
+
+ .section1-content > h5 {
+  margin: 24px 0;
+}
+ /* End Line Height Adjustment */
+
+ .section1-link-desktop {
+  background-color:#01161E;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 8px 0;
+ }
+
+  .section1-link-mobile {
+    display: none;
+  }
+
+ /* Section 2 */
+
+ .section2 {
+   display: flex;
+   padding: 32px 24px;
+ }
+
+ /* Hide mobile container */
+ .section2-mobile {
+   display: none;
+ }
+
+ .section2-blog-container {
+   display: flex;
+   flex-direction: column;
+   padding-right: 24px;
+   width: 60%;
+ }
+
+ /* Ensure width of image set to 100% */
+ .section2-blog-image > img {
+  width: 100%;
+}
+
+/* Set width of right container to 40% */
+  .section2-blog-right-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .section2-blog-right-container a {
+    text-decoration: none;
+    color:blue;
+  }
+
+  .section2-blog-right-box-top {
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    border: 1px solid lightgrey;
+  }
+
+  .section2-blog-right-box{
+    display: flex;
+    padding: 16px;
+    border: 1px solid lightgrey;
+  }
+
+  /* Set width of image box to 35% */
+  .section2-blog-right-image {
+    width: 35%;
+    height: auto;
+  }
+
+  /* Ensure width of image is set to 100% */
+    .section2-blog-right-image img {
+      width: 100%;
+    }
+
+    /* Set width of text box to 65% */
+  .section2-blog-right-text {
+    align-self: center;
+    width: 65%;
+    margin-left: 16px;
+  }
+
+  /* Increase line-height */
+  .section2-blog-right-text > p {
+    margin: 8px 0;
+    line-height: 140%;
+  }
+
+   /* Create flex-container for Section 3 */
+ .section3 {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 40px;
+  background-color: lightgrey;
+}
+
+.section3-header {
+  text-align: center;
+}
+
+/* Hide mobile course-box */
+.course-box {
+  display: none;
+}
+
+/* Create nested flex-container for holding cards */
+.section3-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+/* Create nested flex containers for top row (3 images) and bottom row (3 images) */
+.section3-top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 32px;
+}
+
+.section3-btm-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 32px;
+}
+
+.card {
+  line-height: 140%;
+  flex: 1;
+  height: 100%;
+}
+
+/* Margins between cards */
+.center-card {
+  margin: 0 32px;
+  flex: 1;
+  height: 100%;
+}
+
+/* Card image */
+.card > img {
+  width: 100%;
+  height: auto;
+}
+
+/* Card text */
+.card-text-box {
+  background-color: white;
+  padding: 16px;
+  margin-top: 0;
+}
+
+.card-text-box > h3 {
+  margin-bottom: 24px;
+}
+
+.card-text-box > p {
+  margin-bottom: 8px;
+}
+
+/* Section 4 */
+
+.section4-header > h2 {
+  padding-top: 32px;
+}
+
+.section4 {
+  display: flex;
+  padding: 32px 24px;
+}
+
+.section4-video-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 24px;
+  width: 60%;
+}
+
+.section4-blog-right-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.section4-blog-right-box-top {
+  display: flex;
+  padding: 16px;
+  border: 1px solid lightgrey;
+}
+
+.section4-blog-right-box{
+  display: flex;
+  padding: 16px;
+  border: 1px solid lightgrey;
+}
+
+/* Set width of image box to 35% */
+.section4-blog-right-image {
+  width: 35%;
+  height: auto;
+}
+
+/* Ensure width of image is set to 100% */
+  .section4-blog-right-image img {
+    width: 100%;
+  }
+
+  /* Set width of text box to 65% */
+.section4-blog-right-text {
+  align-self: center;
+  width: 65%;
+  margin-left: 16px;
+}
+
+/* Increase line-height */
+.section4-blog-right-text > p {
+  margin: 8px 0;
+  line-height: 140%;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  height: 64px;
+  padding: 16px 24px;
+  align-items: center;
+  border-top: 1px solid lightgrey;
+}
+
+.footer-logo {
+  flex-basis: 720px;
+}
+
+@media only screen and (max-width:720px) 
+{
+  h1  {
+    font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+
+  h2  {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+
+  h3  {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+
+  h4  {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  h5  {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* Nav-bar */
+  header {
+    padding:0;
+  }
+  
+  .desktop-nav, .logo {
+    display: none;
+   }
+
+  .mobile-nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+
+  .section1 {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  .section1 > img {
+    width: 100%;
+  }
+
+  .section1-content {
+    align-self: center;
+    padding: 32px 16px;
+  }
+
+   /* /* Line Height adjustment */
+  .section1-content > h1, h5 {
+    line-height: 120%;
+ }
+  .section1-content > h5 {
+    margin-top: 32px;
+  }
+
+  .section1-link-mobile {
+    background-color: #8A97A8;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 8px 0;
+  }
+
+.section1-link-desktop {
+  display: none;
+ }
+
+  /* Section 2 Mobile */
+
+  /* Hide section2 */
+  .section2 {
+    display: none;
+  }
+
+  /* Hide left container */
+  .section2-blog-container {
+    display: none;
+  }
+
+  /* Expand right container to 100% width */
+  .section2-blog-right-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  /* Adjust Section 2 padding */
+  .section2-mobile {
+    display: flex;
+    padding: 16px 16px 0 16px;
+  }
+
+  /* Change flex-direction to column */
+  .section2-blog-right-box-top {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    border: none;
+  }
+
+  .section2-blog-right-box{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px 16px 16px;
+    border: none;
+  }
+
+  /* Set width of image box to 100% */
+  .section2-blog-right-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Set width of text box to 100% */
+  .section2-blog-right-text {
+    align-self: center;
+    width: 100%;
+    padding: 16px;
+  } 
+
+  /* Adjust margin */
+  .section2-blog-right-text > p {
+    margin: 16px 0;
+    line-height: 140%;
+  }
+
+  /* Section 3 Mobile */
+
+  /* Remove section bg */
+  .section3 {
+    background-color: #fff;
+    padding: 32px 16px;
+  }
+
+  .section3-header {
+    margin-bottom: 16px;
+  }
+
+  /* Remove cards */
+  .section3-top-row, .section3-btm-row {
+    display: none;
+  }
+  
+  .course-box {
+    display: flex;
+    background-color: lightgrey;
+    padding: 16px 16px 24px 16px;
+    margin-bottom: 8px;
+  }
+
+  /* .section3-top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 32px;
+  } */
+
+  /* Section 4 Mobile */
+
+  .section4-video-text, .section4-blog-right-container {
+    display: none;
+  }
+
+  .section4 {
+    display: flex;
+    padding: 16px 0 24px 0; 
+  }
+  
+  .section4-video-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  .section4-header > h2 {
+    padding-top: 32px;
+    }
+
+  /* Footer */
+  footer {
+    display: flex;
+    height: 64px;
+    padding: 16px;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+    }
+}
+
+
+
