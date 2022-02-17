@@ -1,5 +1,5 @@
 # webAssessment
-Web Assessment
+Please access this website at: https://desmondlimjw.github.io/webAssessment/
 
 What did you like about this project?
 1. Get to recap plain CSS without frameworks like Bootstrap
