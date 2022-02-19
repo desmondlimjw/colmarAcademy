@@ -1,7 +1,8 @@
 # webAssessment
 Please access this website at: https://desmondlimjw.github.io/webAssessment/
 
-**Introduction:** A responsive website built using html and vanilla CSS.
+**Introduction:** A responsive website built using html and vanilla CSS
+
 **Tools used:** HTML, CSS (Flexbox, Media Queries)
 
 **What did you like about this project?**
