@@ -12,7 +12,7 @@ Please access this website at: https://desmondlimjw.github.io/webAssessment/
 
 ![COLMARACADEMY_desktop_top](https://user-images.githubusercontent.com/29788431/154959554-b43e4a3a-bea7-43bd-9f06-5abffb8f3ad7.png)
 
-![COLMARACADEMY_desktop-mid](https://user-images.githubusercontent.com/29788431/154959778-c990c85b-0c86-45db-a565-4b984284e680.png)
+
 
 ## Reflections
 **What did you like about this project?**
