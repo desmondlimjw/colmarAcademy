@@ -12,6 +12,9 @@ Please access this website at: https://desmondlimjw.github.io/webAssessment/
 
 ![COLMARACADEMY_desktop_top](https://user-images.githubusercontent.com/29788431/154959554-b43e4a3a-bea7-43bd-9f06-5abffb8f3ad7.png)
 
+![COLMAR_desktop_mid](https://user-images.githubusercontent.com/29788431/154960614-ba7b7abd-d532-4780-ac7f-d36db3bee004.png)
+
+![COLMAR_desktop_btm](https://user-images.githubusercontent.com/29788431/154960620-fb7dd104-0411-4794-ad42-b61a5575da94.png)
 
 
 ## Reflections
